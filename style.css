@@ -1,0 +1,76 @@
+/*Body-class-id*/
+body{
+    background-color: #EFF6FF;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+}
+.sens_value {
+    color: #1D4ED8;
+    font-size: 36px;
+}
+.sens_value:hover{
+    color: #21FF5C;
+}
+
+.text-1{
+    color: #2563EB;
+    font-size: 36px;
+}
+
+.text-2{
+    color: #1D4ED8;
+}
+.lef{
+    float: none;
+    text-align: center;
+}
+.mid{
+    float: none;
+    text-align: center;
+}
+.rig{
+    float: none;
+    text-align: center;
+}
+
+#container{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#teval{
+    display: flex;
+    flex-direction: column;
+}
+
+#val{
+    background-color: #DBEAFE;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+
+#text{
+    height: 300px;
+    font-weight: 800;
+    background-color: #1D4ED8;
+    color: #EFF6FF;
+    text-align: center;
+    font-size: 24px;
+}
+
+#big-text{
+    font-weight: 800;
+    text-align: center;
+    font-size: 64px;
+}
+#small-text{
+    font-size: 24px;
+}
